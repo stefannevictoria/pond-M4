@@ -7,7 +7,7 @@ Repositório criado para as atividades práticas de **pisca-pisca (Blink)** com 
 ## 🔹 Parte 1: Blink LED Interno
 
 Nesta parte, foi realizado o clássico **Blink** utilizando o **LED interno do Arduino (pino 13)**.  
-O programa faz o LED acender por um tempo X, apagar e aguardar Y segundos, repetindo esse ciclo continuamente.
+O programa faz o LED acender por um tempo, apagar e aguardar alguns segundos, repetindo esse ciclo continuamente.
 
 ### 🧠 Objetivo
 - Configurar o ambiente de desenvolvimento (Arduino IDE);
@@ -52,3 +52,56 @@ O arquivo com o código também pode ser encontrado em: [código](led_blink.ino)
 
 ##### 🎥 Vídeo demonstrando o funcionamento
 O vídeo pode ser acessado em: [gif](assets/gif.mp4).
+
+
+---
+
+## 🔹 Parte 2: Simulando Blink Externo (TinkerCad)
+
+Simulação de um LED externo piscando utilizando o TinkerCad Circuits, com Arduino Uno, protoboard, LED, resistor e fios de conexão.
+
+### 🧠 Objetivo
+- Montar um circuito físico simulado com LED externo;
+- Compreender o uso de portas digitais;
+- Usar `pinMode()` e `digitalWrite()` para controlar o LED
+
+### ⚙️ Código Utilizado
+
+```c
+// C++ code
+//
+void setup()
+{
+  pinMode(13, OUTPUT);
+}
+
+void loop()
+{
+  digitalWrite(13, HIGH);
+  delay(1000);
+  digitalWrite(13, LOW);
+  delay(150);
+  digitalWrite(13, HIGH);
+  delay(150);
+  digitalWrite(13, LOW);
+  delay(150);
+  digitalWrite(13, HIGH);
+  delay(1000);
+  digitalWrite(13, LOW);
+  delay(500);
+}
+```
+##### 🔌 Foto do TinkerCad
+![imagem led](assets/thinkercad.png)
+
+### 🧩 Componentes usados
+
+- Arduino Uno
+- Protoboard
+- LED (off-board)
+- Resistor (220Ω)
+- Jumpers de conexão
+
+### 🔗 Links
+
+🔗 **Projeto no TinkerCad:** [projeto](https://www.tinkercad.com/things/2vS6qZP6zsx/editel?sharecode=GxjVbPeX-PSrihU1FwcvG0dtj7ViH2wngF_RkmdpAfI)
