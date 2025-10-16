@@ -2,7 +2,7 @@
 
 Repositório criado para as atividades práticas de **pisca-pisca (Blink)** com Arduino, realizadas durante o módulo de eletrônica e programação embarcada.
 
----
+
 
 ## 🔹 Parte 1: Blink LED Interno
 
@@ -54,7 +54,6 @@ O arquivo com o código também pode ser encontrado em: [código](led_blink.ino)
 O vídeo pode ser acessado em: [gif](assets/gif.mp4).
 
 
----
 
 ## 🔹 Parte 2: Simulando Blink Externo (TinkerCad)
 
