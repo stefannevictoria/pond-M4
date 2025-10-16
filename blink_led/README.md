@@ -6,8 +6,8 @@ Repositório criado para as atividades práticas de **pisca-pisca (Blink)** com 
 
 ## 🔹 Parte 1: Blink LED Interno
 
-Nesta parte, foi realizado o clássico **Blink** utilizando o **LED interno do Arduino (pino 13)**.  
-O programa faz o LED acender por um tempo, apagar e aguardar alguns segundos, repetindo esse ciclo continuamente.
+Nesta parte, foi realizado o clássico **Blink** utilizando o **LED interno do Arduino**.  
+O programa faz LEDs acenderem por um tempo, apagar e aguardar alguns segundos, repetindo esse ciclo continuamente.
 
 ### 🧠 Objetivo
 - Configurar o ambiente de desenvolvimento (Arduino IDE);
@@ -20,7 +20,9 @@ O programa faz o LED acender por um tempo, apagar e aguardar alguns segundos, re
 
 void setup() {
   // put your setup code here, to run once:
-  pinMode(13, OUTPUT); // Define pino 13 como saída
+  pinMode(13, OUTPUT); // Define pino de saída
+  pinMode(10, OUTPUT);
+  pinMode(7, OUTPUT);
 }
 
 void loop() {
@@ -29,13 +31,13 @@ void loop() {
   delay(1000); // Aguarda o tempo determinado
   digitalWrite(13, LOW); // Desliga o LED
   delay(150);
-  digitalWrite(13, HIGH);
+  digitalWrite(10, HIGH);
   delay(150);
-  digitalWrite(13, LOW);
+  digitalWrite(10, LOW);
   delay(150);
-  digitalWrite(13, HIGH);
+  digitalWrite(7, HIGH);
   delay(1000);
-  digitalWrite(13, LOW);
+  digitalWrite(7, LOW);
   delay(500);
 }
 ```
@@ -49,7 +51,7 @@ O arquivo com o código também pode ser encontrado em: [código](led_blink.ino)
 ![imagem led](assets/arduino_led.jpg)
 
 ##### 🎥 Vídeo demonstrando o funcionamento
-![gif](assets/gif.gif)
+![gif](assets/led.gif)
 
 
 
@@ -70,6 +72,9 @@ Simulação de um LED externo piscando utilizando o TinkerCad Circuits, com Ardu
 void setup()
 {
   pinMode(13, OUTPUT);
+  pinMode(10, OUTPUT);
+  pinMode(7, OUTPUT);
+
 }
 
 void loop()
@@ -78,13 +83,13 @@ void loop()
   delay(1000);
   digitalWrite(13, LOW);
   delay(150);
-  digitalWrite(13, HIGH);
+  digitalWrite(10, HIGH);
   delay(150);
-  digitalWrite(13, LOW);
+  digitalWrite(10, LOW);
   delay(150);
-  digitalWrite(13, HIGH);
+  digitalWrite(7, HIGH);
   delay(1000);
-  digitalWrite(13, LOW);
+  digitalWrite(7, LOW);
   delay(500);
 }
 ```
@@ -92,10 +97,10 @@ O código utilizado na parte 1 foi o mesmo utilizado na parte 2.
 O arquivo com o código pode ser encontrado em: [código](led_blink.ino).
 
 ##### 🔌 Foto do TinkerCad
-![imagem led](assets/thinkercad.png)
+![imagem led](assets/tinkercad.png)
 
 ##### 🎥 Vídeo demonstrando o funcionamento
-![gif](assets/thinker.gif)
+![gif](assets/tinker.gif)
 
 ### 🧩 Componentes usados
 
