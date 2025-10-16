@@ -42,8 +42,6 @@ void loop() {
 
 O arquivo com o código também pode ser encontrado em: [código](led_blink.ino).
 
-### 📸 Evidências
-
 ##### 💻 Screenshot do código na Arduino IDE
 ![imagem codigo](assets/codigo.png)
 
@@ -51,7 +49,7 @@ O arquivo com o código também pode ser encontrado em: [código](led_blink.ino)
 ![imagem led](assets/arduino_led.jpg)
 
 ##### 🎥 Vídeo demonstrando o funcionamento
-O vídeo pode ser acessado em: [gif](assets/gif.mp4).
+![gif](assets/gif.gif)
 
 
 
@@ -95,6 +93,9 @@ O arquivo com o código pode ser encontrado em: [código](led_blink.ino).
 
 ##### 🔌 Foto do TinkerCad
 ![imagem led](assets/thinkercad.png)
+
+##### 🎥 Vídeo demonstrando o funcionamento
+![gif](assets/thinker.gif)
 
 ### 🧩 Componentes usados
 
