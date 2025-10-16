@@ -91,6 +91,9 @@ void loop()
   delay(500);
 }
 ```
+O código utilizado na parte 1 foi o mesmo utilizado na parte 2.
+O arquivo com o código pode ser encontrado em: [código](led_blink.ino).
+
 ##### 🔌 Foto do TinkerCad
 ![imagem led](assets/thinkercad.png)
 
