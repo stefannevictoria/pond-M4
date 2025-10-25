@@ -36,6 +36,7 @@ O sistema inclui:
 ![Circuito no Tinkercad](assets/circuito.png)
 
 🎞️ **GIF do sistema em funcionamento:**  
+
 ![Funcionamento do circuito](assets/circuito_rc.gif)
 
 

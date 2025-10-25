@@ -23,7 +23,9 @@ O código faz os LEDs piscarem em sequência, criando um padrão visual dinâmic
 
 
 ## 🔗 Links
-- **🔧 Código do Arduino IDE:** [Clique aqui para ver o código](poo.ino)  
+
+- **🔧 Código do Arduino IDE:** [Clique aqui para ver o código](poo.ino) 
+
 - **🧩 Projeto no Tinkercad:** [Clique aqui para acessar o circuito](https://www.tinkercad.com/things/ixCEyo7C66i/editel?sharecode=hJIcbs0I6Q3M1sCe7ZQhKeK_lJTHZx9mC1X4VIDIVYc)
 
 
