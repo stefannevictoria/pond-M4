@@ -33,12 +33,11 @@ O ciclo se repete continuamente, garantindo segurança e organização no fluxo 
 | Cabo USB | 1 | Comunicação e energia | — |
 
 
-## 🔌 Esquema de Montagem  
+## 🔌 Esquema de Montagem - Tinkercad
 
 Um esquema de montagem foi realizado usando o Tinkercad para simular e testar o circuito antes de sua montagem. Abaixo é possível visualizar a simulação:
 
 ![Circuito no Tinkercad](assets/circuito.png)
-
 
 
 ## 🛠️ Etapas da Montagem  
