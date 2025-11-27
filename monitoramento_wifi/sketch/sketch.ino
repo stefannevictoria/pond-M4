@@ -7,12 +7,12 @@
 #include <WiFiClientSecure.h>
 #include <PubSubClient.h>
 
-#define WIFI_SSID    "Inteli.Iot"
-#define WIFI_PASS    "%(Yk(sxGMtvFEs.3"
+#define WIFI_SSID    "SuaRedeWiFi"
+#define WIFI_PASS    "SuaSenhaWiFi"
 
-#define AIO_USERNAME "stefanne"
-#define AIO_KEY      "aio_bIbc01kBMSNVJVd1jgbckqD30n0E"
-#define FEED_NAME    "rssi"
+#define AIO_USERNAME "seu_usuario_adafruit"
+#define AIO_KEY      "sua_chave_adafruit"
+#define FEED_NAME    "seu_feed"  // nome do feed no Adafruit IO
 
 // intervalo seguro de publicação (ms)
 const unsigned long PUBLISH_INTERVAL = 3000UL;
